@@ -83,11 +83,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\TEST\thingy\OpenGL\Dependencies\GLEW\lib\Release\Win32;$(SolutionDir)OpenGL;$(SolutionDir)OpenGL\Dependencies\GLM\glm;$(SolutionDir)OpenGL\Dependencies\GLFW\include;$(SolutionDir)OpenGL\Dependencies\GLEW\include\GL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)OpenGL\Dependencies\GLEW\lib\Release\Win32;$(SolutionDir)OpenGL;$(SolutionDir)OpenGL\Dependencies\GLM\glm;$(SolutionDir)OpenGL\Dependencies\GLFW\include;$(SolutionDir)OpenGL\Dependencies\GLEW\include\GL</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\TEST\thingy\OpenGL\Dependencies\GLEW\lib\Release\Win32;C:\TEST\thingy\OpenGL\Dependencies\GLEW\lib\Release\x64;C:\TEST\thingy\OpenGL\Dependencies\GLM\glm;$(SolutionDir);$(SolutionDir)OpenGL\Dependencies\;$(SolutionDir)OpenGL\Dependencies\GLFW\lib-vc2015;$(SolutionDir)OpenGL\Dependencies\GLEW\lib\Release\Win32</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\OpenGL\Dependencies\GLEW\lib\Release\Win32;$(SolutionDir)OpenGL\Dependencies\GLEW\lib\Release\x64;$(SolutionDir)OpenGL\Dependencies\GLM\glm;$(SolutionDir);$(SolutionDir)OpenGL\Dependencies\;$(SolutionDir)OpenGL\Dependencies\GLFW\lib-vc2015;$(SolutionDir)OpenGL\Dependencies\GLEW\lib\Release\Win32</AdditionalLibraryDirectories>
       <AdditionalDependencies>Ws2_32.lib;glu32.lib;glew32s.lib;glew32.lib;glfw3.lib;opengl32.lib;User32.lib;Gdi32.lib;Shell32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>
