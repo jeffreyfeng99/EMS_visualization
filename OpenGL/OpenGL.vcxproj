@@ -71,8 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
-    <IncludePath>C:\TEST\thingy\OpenGL;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\TEST\thingy\OpenGL;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)OpenGL;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)OpenGL;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
